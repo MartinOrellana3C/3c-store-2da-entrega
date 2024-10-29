@@ -68,7 +68,7 @@ main p{
     background-color: #fffab0;
     color: black;
 }
-main h3{
+h3{
     text-align: center;
     font-weight: bold;
 }
@@ -93,6 +93,59 @@ footer a{
     font-weight: bold;
     font-style: italic;
     background-color: #ece7a2;
+}
+li span{
+    color: orange;
+    font-weight: 500;
+}
+#h2novedades{
+    background-color:orange;
+    margin-bottom: 15px;
+}
+.formulario{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nombreform{
+    margin-bottom: 10px;
+}
+.nombreform h3{
+    font-size: 80%;
+}
+.generoform{
+    font-size: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.formulario .form-check{
+   /*  background-color: #ece7a2;
+    color: black;
+    width: 50%; */
+}
+.mensajeform{
+    margin-bottom: 20px;
+}
+section button{
+    background-color: #f7f6f5;
+}
+.botonform{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.botonform button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.imgproductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 2px;
 }
 /* media query para tablets */
 @media (min-width: 600px) {
