@@ -1,0 +1,28 @@
+main{
+    .flex-container{
+        justify-content: center;
+    }
+    img{
+        height: 300px; 
+        width: 404px;
+    }
+    h2{
+        color: rgb(0, 0, 0);
+        background-color:#F2E313;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    p{
+        margin-top: 0;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        font-size: larger;
+        background-color: #fffab0;
+        color: black;
+    }
+    ul{
+        list-style: none;
+        text-align: center;
+        margin-right: 30px;
+    }
+}

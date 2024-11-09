@@ -1,0 +1,40 @@
+.formulario{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nombreform{
+    margin-bottom: 10px;
+}
+.nombreform h3{
+    font-size: 80%;
+}
+.generoform{
+    font-size: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* .formulario .form-check{
+    background-color: #ece7a2;
+    color: black;
+    width: 50%; 
+} */
+.mensajeform{
+    margin-bottom: 20px;
+}
+/* mover mas adelante */
+section button{
+    background-color: #f7f6f5;
+}
+/* eso de arriba */
+.botonform{
+    button{
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+    }
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

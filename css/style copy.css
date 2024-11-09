@@ -92,11 +92,11 @@ footer a{
     font-style: italic;
     background-color: #ece7a2;
 }
-li span{
+li span .sectionnov{
     color: orange;
     font-weight: 500;
 }
-#h2novedades{
+h2 .sectionnov{
     background-color:orange;
     margin-bottom: 15px;
 }

@@ -1,0 +1,51 @@
+@media (min-width: 1024px) {
+    main{
+        img{
+            width: 70%;
+            height: 70%;
+        }
+    }
+    .carrusel1024{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 120%;
+        width: 30%;
+        margin-left: 35%
+    }
+    #navmobile{
+        visibility: hidden;
+    }
+    #navdesktop{
+        visibility: visible;
+    }
+    nav{
+        .flex-container{
+            background-color: rgb(255, 8, 0);
+            justify-content: center;
+        }
+        #logo-ham{
+            justify-content: space-between;
+            padding: 5px 10px 5px 10px;
+            background-color: #0442BF
+        }
+        #secciones{
+            flex-direction: row;
+            text-align: center;
+            color: black;
+            font-size: 200%;
+        }
+    }
+    .botones{
+        font-weight: bold;
+        border: solid black 1px;
+        color: rgb(0, 0, 0);
+        background-color: #F2E313;
+        width: 100%;
+        text-align: center;
+        &:hover{
+            background-color:#ece7a2;
+            font-size: larger;
+        }
+    }
+}
