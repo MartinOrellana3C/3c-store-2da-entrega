@@ -5,7 +5,9 @@ body {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  background-color: #0540F2;
+  background-color: #0A1626;
+  background: rgb(20, 36, 0);
+  background: linear-gradient(90deg, rgb(20, 36, 0) 0%, rgb(9, 9, 121) 50%, rgb(0, 0, 0) 100%);
   font-family: "Cabin", sans-serif;
   color: white;
 }
@@ -50,6 +52,12 @@ main .flex-container {
 main img {
   height: 300px;
   width: 404px;
+}
+main #impresora3d {
+  box-shadow: 10px 10px 5px 0px rgba(243, 255, 214, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(243, 255, 214, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(243, 255, 214, 0.75);
+  margin: 10px;
 }
 main h2 {
   color: rgb(0, 0, 0);
@@ -163,34 +171,54 @@ footer a {
   #navdesktop {
     visibility: visible;
   }
-  nav .flex-container {
-    background-color: rgb(255, 8, 0);
-    justify-content: center;
+  nav {
+    /*  #logo-ham{
+         justify-content: space-between;
+         padding: 5px 10px 5px 10px;
+         background-color: #203359
+     } */
   }
-  nav #logo-ham {
+  nav .flex-container {
+    background-color: rgba(255, 255, 255, 0.397);
     justify-content: space-between;
-    padding: 5px 10px 5px 10px;
-    background-color: #0442BF;
+  }
+  nav .flex-container #secciones {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(255, 0, 0);
+    font-size: 200%;
+  }
+  nav .flex-container #logo3c {
+    background-color: rgba(255, 255, 255, 0);
   }
   nav #secciones {
     flex-direction: row;
     text-align: center;
+    justify-content: space-between;
     color: black;
     font-size: 200%;
   }
   .botones {
+    justify-content: space-between;
     font-weight: bold;
     border: solid black 1px;
-    color: rgb(0, 0, 0);
-    background-color: #F2E313;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     width: 100%;
     text-align: center;
   }
   .botones:hover {
-    background-color: #ece7a2;
+    background-color: rgba(236, 231, 162, 0.5411764706);
     font-size: larger;
   }
 }
+#logo-ham {
+  justify-content: center;
+  background-color: #021373;
+  padding: 10px;
+}
+
 @media (min-width: 600px) {
   .carrusel1024 {
     display: flex;

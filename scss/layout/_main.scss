@@ -6,6 +6,12 @@ main{
         height: 300px; 
         width: 404px;
     }
+    #impresora3d{
+        box-shadow: 10px 10px 5px 0px rgba(243,255,214,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(243,255,214,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(243,255,214,0.75);
+        margin: 10px;
+    }
     h2{
         color: rgb(0, 0, 0);
         background-color:#F2E313;
